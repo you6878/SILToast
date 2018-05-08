@@ -1,0 +1,688 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0201740620A1BA1300DE5E99 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0201740520A1BA1300DE5E99 /* AppDelegate.swift */; };
+		0201740820A1BA1300DE5E99 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0201740720A1BA1300DE5E99 /* ViewController.swift */; };
+		0201740B20A1BA1300DE5E99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0201740920A1BA1300DE5E99 /* Main.storyboard */; };
+		0201740D20A1BA1400DE5E99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0201740C20A1BA1400DE5E99 /* Assets.xcassets */; };
+		0201741020A1BA1400DE5E99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0201740E20A1BA1400DE5E99 /* LaunchScreen.storyboard */; };
+		0201741B20A1BA1400DE5E99 /* HowlToastTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0201741A20A1BA1400DE5E99 /* HowlToastTests.swift */; };
+		0201742620A1BA1400DE5E99 /* HowlToastUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0201742520A1BA1400DE5E99 /* HowlToastUITests.swift */; };
+		9088DC6BE00E219FB9265F83 /* Pods_HowlToastUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D0F495B713D301A5F4346AA /* Pods_HowlToastUITests.framework */; };
+		ED17E4AA13C961B6035EA9EB /* Pods_HowlToastTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CF9CFE6DCAB843C4D3072FC /* Pods_HowlToastTests.framework */; };
+		F813C476F6FEA20007C335C2 /* Pods_HowlToast.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC00D410BA5C151F007B57A /* Pods_HowlToast.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0201741720A1BA1400DE5E99 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 020173FA20A1BA1300DE5E99 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0201740120A1BA1300DE5E99;
+			remoteInfo = HowlToast;
+		};
+		0201742220A1BA1400DE5E99 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 020173FA20A1BA1300DE5E99 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0201740120A1BA1300DE5E99;
+			remoteInfo = HowlToast;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0201740220A1BA1300DE5E99 /* HowlToast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HowlToast.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0201740520A1BA1300DE5E99 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0201740720A1BA1300DE5E99 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0201740A20A1BA1300DE5E99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0201740C20A1BA1400DE5E99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0201740F20A1BA1400DE5E99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0201741120A1BA1400DE5E99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0201741620A1BA1400DE5E99 /* HowlToastTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HowlToastTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0201741A20A1BA1400DE5E99 /* HowlToastTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowlToastTests.swift; sourceTree = "<group>"; };
+		0201741C20A1BA1400DE5E99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0201742120A1BA1400DE5E99 /* HowlToastUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HowlToastUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0201742520A1BA1400DE5E99 /* HowlToastUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowlToastUITests.swift; sourceTree = "<group>"; };
+		0201742720A1BA1400DE5E99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20905AD3E8FFC41EF8E6E487 /* Pods-HowlToast.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HowlToast.release.xcconfig"; path = "Pods/Target Support Files/Pods-HowlToast/Pods-HowlToast.release.xcconfig"; sourceTree = "<group>"; };
+		5BCA1651051B0FF7CEB57516 /* Pods-HowlToastTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HowlToastTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HowlToastTests/Pods-HowlToastTests.release.xcconfig"; sourceTree = "<group>"; };
+		676F0A8E06AA310314DD34FB /* Pods-HowlToastUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HowlToastUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HowlToastUITests/Pods-HowlToastUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7D0F495B713D301A5F4346AA /* Pods_HowlToastUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HowlToastUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D84B9EA385DA98D8F0DD6A4 /* Pods-HowlToastTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HowlToastTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HowlToastTests/Pods-HowlToastTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9CF9CFE6DCAB843C4D3072FC /* Pods_HowlToastTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HowlToastTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8716E56CAB0F69702265599 /* Pods-HowlToast.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HowlToast.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HowlToast/Pods-HowlToast.debug.xcconfig"; sourceTree = "<group>"; };
+		ABC00D410BA5C151F007B57A /* Pods_HowlToast.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HowlToast.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBE59E990FDE00CC7000F51C /* Pods-HowlToastUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HowlToastUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HowlToastUITests/Pods-HowlToastUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		020173FF20A1BA1300DE5E99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F813C476F6FEA20007C335C2 /* Pods_HowlToast.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0201741320A1BA1400DE5E99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED17E4AA13C961B6035EA9EB /* Pods_HowlToastTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0201741E20A1BA1400DE5E99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9088DC6BE00E219FB9265F83 /* Pods_HowlToastUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		020173F920A1BA1300DE5E99 = {
+			isa = PBXGroup;
+			children = (
+				0201740420A1BA1300DE5E99 /* HowlToast */,
+				0201741920A1BA1400DE5E99 /* HowlToastTests */,
+				0201742420A1BA1400DE5E99 /* HowlToastUITests */,
+				0201740320A1BA1300DE5E99 /* Products */,
+				18E32472A1793DF11DA1416B /* Pods */,
+				F08E8F4ACFB2E99EAD2ABDE5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0201740320A1BA1300DE5E99 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0201740220A1BA1300DE5E99 /* HowlToast.app */,
+				0201741620A1BA1400DE5E99 /* HowlToastTests.xctest */,
+				0201742120A1BA1400DE5E99 /* HowlToastUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0201740420A1BA1300DE5E99 /* HowlToast */ = {
+			isa = PBXGroup;
+			children = (
+				0201740520A1BA1300DE5E99 /* AppDelegate.swift */,
+				0201740720A1BA1300DE5E99 /* ViewController.swift */,
+				0201740920A1BA1300DE5E99 /* Main.storyboard */,
+				0201740C20A1BA1400DE5E99 /* Assets.xcassets */,
+				0201740E20A1BA1400DE5E99 /* LaunchScreen.storyboard */,
+				0201741120A1BA1400DE5E99 /* Info.plist */,
+			);
+			path = HowlToast;
+			sourceTree = "<group>";
+		};
+		0201741920A1BA1400DE5E99 /* HowlToastTests */ = {
+			isa = PBXGroup;
+			children = (
+				0201741A20A1BA1400DE5E99 /* HowlToastTests.swift */,
+				0201741C20A1BA1400DE5E99 /* Info.plist */,
+			);
+			path = HowlToastTests;
+			sourceTree = "<group>";
+		};
+		0201742420A1BA1400DE5E99 /* HowlToastUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0201742520A1BA1400DE5E99 /* HowlToastUITests.swift */,
+				0201742720A1BA1400DE5E99 /* Info.plist */,
+			);
+			path = HowlToastUITests;
+			sourceTree = "<group>";
+		};
+		18E32472A1793DF11DA1416B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A8716E56CAB0F69702265599 /* Pods-HowlToast.debug.xcconfig */,
+				20905AD3E8FFC41EF8E6E487 /* Pods-HowlToast.release.xcconfig */,
+				8D84B9EA385DA98D8F0DD6A4 /* Pods-HowlToastTests.debug.xcconfig */,
+				5BCA1651051B0FF7CEB57516 /* Pods-HowlToastTests.release.xcconfig */,
+				676F0A8E06AA310314DD34FB /* Pods-HowlToastUITests.debug.xcconfig */,
+				DBE59E990FDE00CC7000F51C /* Pods-HowlToastUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F08E8F4ACFB2E99EAD2ABDE5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ABC00D410BA5C151F007B57A /* Pods_HowlToast.framework */,
+				9CF9CFE6DCAB843C4D3072FC /* Pods_HowlToastTests.framework */,
+				7D0F495B713D301A5F4346AA /* Pods_HowlToastUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0201740120A1BA1300DE5E99 /* HowlToast */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0201742A20A1BA1400DE5E99 /* Build configuration list for PBXNativeTarget "HowlToast" */;
+			buildPhases = (
+				BFCD29C0B33B9954F317CA6E /* [CP] Check Pods Manifest.lock */,
+				020173FE20A1BA1300DE5E99 /* Sources */,
+				020173FF20A1BA1300DE5E99 /* Frameworks */,
+				0201740020A1BA1300DE5E99 /* Resources */,
+				C8AEB2D432B6828D8B3BEBFE /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HowlToast;
+			productName = HowlToast;
+			productReference = 0201740220A1BA1300DE5E99 /* HowlToast.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0201741520A1BA1400DE5E99 /* HowlToastTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0201742D20A1BA1400DE5E99 /* Build configuration list for PBXNativeTarget "HowlToastTests" */;
+			buildPhases = (
+				D031C3F8C568C8C29036A585 /* [CP] Check Pods Manifest.lock */,
+				0201741220A1BA1400DE5E99 /* Sources */,
+				0201741320A1BA1400DE5E99 /* Frameworks */,
+				0201741420A1BA1400DE5E99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0201741820A1BA1400DE5E99 /* PBXTargetDependency */,
+			);
+			name = HowlToastTests;
+			productName = HowlToastTests;
+			productReference = 0201741620A1BA1400DE5E99 /* HowlToastTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0201742020A1BA1400DE5E99 /* HowlToastUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0201743020A1BA1400DE5E99 /* Build configuration list for PBXNativeTarget "HowlToastUITests" */;
+			buildPhases = (
+				5CDBFCB924854666AE97FC8E /* [CP] Check Pods Manifest.lock */,
+				0201741D20A1BA1400DE5E99 /* Sources */,
+				0201741E20A1BA1400DE5E99 /* Frameworks */,
+				0201741F20A1BA1400DE5E99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0201742320A1BA1400DE5E99 /* PBXTargetDependency */,
+			);
+			name = HowlToastUITests;
+			productName = HowlToastUITests;
+			productReference = 0201742120A1BA1400DE5E99 /* HowlToastUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		020173FA20A1BA1300DE5E99 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "유명식";
+				TargetAttributes = {
+					0201740120A1BA1300DE5E99 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					0201741520A1BA1400DE5E99 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 0201740120A1BA1300DE5E99;
+					};
+					0201742020A1BA1400DE5E99 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 0201740120A1BA1300DE5E99;
+					};
+				};
+			};
+			buildConfigurationList = 020173FD20A1BA1300DE5E99 /* Build configuration list for PBXProject "HowlToast" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 020173F920A1BA1300DE5E99;
+			productRefGroup = 0201740320A1BA1300DE5E99 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0201740120A1BA1300DE5E99 /* HowlToast */,
+				0201741520A1BA1400DE5E99 /* HowlToastTests */,
+				0201742020A1BA1400DE5E99 /* HowlToastUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0201740020A1BA1300DE5E99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0201741020A1BA1400DE5E99 /* LaunchScreen.storyboard in Resources */,
+				0201740D20A1BA1400DE5E99 /* Assets.xcassets in Resources */,
+				0201740B20A1BA1300DE5E99 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0201741420A1BA1400DE5E99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0201741F20A1BA1400DE5E99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5CDBFCB924854666AE97FC8E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HowlToastUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BFCD29C0B33B9954F317CA6E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HowlToast-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C8AEB2D432B6828D8B3BEBFE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HowlToast/Pods-HowlToast-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Toast-Swift/Toast_Swift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Toast_Swift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HowlToast/Pods-HowlToast-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D031C3F8C568C8C29036A585 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HowlToastTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		020173FE20A1BA1300DE5E99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0201740820A1BA1300DE5E99 /* ViewController.swift in Sources */,
+				0201740620A1BA1300DE5E99 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0201741220A1BA1400DE5E99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0201741B20A1BA1400DE5E99 /* HowlToastTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0201741D20A1BA1400DE5E99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0201742620A1BA1400DE5E99 /* HowlToastUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0201741820A1BA1400DE5E99 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0201740120A1BA1300DE5E99 /* HowlToast */;
+			targetProxy = 0201741720A1BA1400DE5E99 /* PBXContainerItemProxy */;
+		};
+		0201742320A1BA1400DE5E99 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0201740120A1BA1300DE5E99 /* HowlToast */;
+			targetProxy = 0201742220A1BA1400DE5E99 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0201740920A1BA1300DE5E99 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0201740A20A1BA1300DE5E99 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0201740E20A1BA1400DE5E99 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0201740F20A1BA1400DE5E99 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0201742820A1BA1400DE5E99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0201742920A1BA1400DE5E99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0201742B20A1BA1400DE5E99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8716E56CAB0F69702265599 /* Pods-HowlToast.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YS9FD49N82;
+				INFOPLIST_FILE = HowlToast/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bbplatform.HowlToast;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0201742C20A1BA1400DE5E99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20905AD3E8FFC41EF8E6E487 /* Pods-HowlToast.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YS9FD49N82;
+				INFOPLIST_FILE = HowlToast/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bbplatform.HowlToast;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0201742E20A1BA1400DE5E99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D84B9EA385DA98D8F0DD6A4 /* Pods-HowlToastTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HowlToastTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bbplatform.HowlToastTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HowlToast.app/HowlToast";
+			};
+			name = Debug;
+		};
+		0201742F20A1BA1400DE5E99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BCA1651051B0FF7CEB57516 /* Pods-HowlToastTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HowlToastTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bbplatform.HowlToastTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HowlToast.app/HowlToast";
+			};
+			name = Release;
+		};
+		0201743120A1BA1400DE5E99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 676F0A8E06AA310314DD34FB /* Pods-HowlToastUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HowlToastUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bbplatform.HowlToastUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HowlToast;
+			};
+			name = Debug;
+		};
+		0201743220A1BA1400DE5E99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBE59E990FDE00CC7000F51C /* Pods-HowlToastUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HowlToastUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bbplatform.HowlToastUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HowlToast;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		020173FD20A1BA1300DE5E99 /* Build configuration list for PBXProject "HowlToast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0201742820A1BA1400DE5E99 /* Debug */,
+				0201742920A1BA1400DE5E99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0201742A20A1BA1400DE5E99 /* Build configuration list for PBXNativeTarget "HowlToast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0201742B20A1BA1400DE5E99 /* Debug */,
+				0201742C20A1BA1400DE5E99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0201742D20A1BA1400DE5E99 /* Build configuration list for PBXNativeTarget "HowlToastTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0201742E20A1BA1400DE5E99 /* Debug */,
+				0201742F20A1BA1400DE5E99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0201743020A1BA1400DE5E99 /* Build configuration list for PBXNativeTarget "HowlToastUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0201743120A1BA1400DE5E99 /* Debug */,
+				0201743220A1BA1400DE5E99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 020173FA20A1BA1300DE5E99 /* Project object */;
+}
